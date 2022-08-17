@@ -1,0 +1,101 @@
+.product {
+    padding: 90px 0 140px;
+}
+
+.product .container {
+    flex-direction: column;
+}
+
+.product-title {
+    font-size: 56px;
+    margin-bottom: 36px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    max-width: 320px;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.product-item-img {
+    background-image: url(../img/product-berry.jpg);
+    background-size: 1156px;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: calc(100% - 45px);
+}
+
+.label-hot, .label-sales, .label-new {
+    width: 45px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+.label-sales {
+    background-color: cornflowerblue;
+}
+
+.label-new {
+    background-color: springgreen;
+}
+
+.product-item__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.product-item__description {
+    margin-bottom: 12px;
+}
+
+.btn-cart {    
+    background-color: #C83267;
+    border: 1px solid #C83267;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 9px 37px;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.btn-phone {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 25px 25px;
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    cursor: pointer;
+    z-index: 1;
+    background-image: url(../img/icon-feedback.png);
+}
