@@ -1,0 +1,34 @@
+.bs-title {
+    width: 100%;
+    padding-top: 24px;
+}
+
+main .bg-colors, 
+main .bs-grid {
+    margin: 0;
+}
+
+h2 {
+    padding-top: 8px;
+}
+
+.bs-grid .row {
+    margin: 0;
+    padding: 0;
+}
+
+.bs-grid div div{
+    border: 1px solid #fff;
+}
+
+.bg-indigo {
+    background-color: #6610f2;
+}
+
+.bg-pink {
+    background-color: #d63384;
+}
+
+.bg-lime {
+    background-color: #8BC34A;
+}

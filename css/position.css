@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #ffc107;
+    --secondary-color: #C83267;
+    --white: #fff;
+    --label-hot: red;
+    --label-sales: cornflowerblue;
+    --label-new: springgreen;
+}
+
 .product {
     padding: 90px 0 140px;
 }
@@ -37,8 +46,8 @@
 .label-hot, .label-sales, .label-new {
     width: 45px;
     height: 45px;
-    background-color: red;
-    color: #fff;
+    background-color: var(--label-hot);
+    color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,11 +57,11 @@
 }
 
 .label-sales {
-    background-color: cornflowerblue;
+    background-color: var(--label-sales);
 }
 
 .label-new {
-    background-color: springgreen;
+    background-color: var(--label-new);
 }
 
 .product-item__title {
@@ -65,10 +74,10 @@
 }
 
 .btn-cart {    
-    background-color: #C83267;
-    border: 1px solid #C83267;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -78,15 +87,15 @@
 }
 
 .btn-cart:hover {
-    background-color: #ffc107;
-    border: 1px solid #ffc107;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .btn-phone {
-    background-color: #ffc107;
-    border: 1px solid #ffc107;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;

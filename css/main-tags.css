@@ -1,0 +1,32 @@
+.main-tags h1 {
+    font-size: 56px;
+    text-align: center;
+    padding: 48px 12px 72px;
+}
+
+.tag-list .container {
+    flex-direction: column;
+}
+
+.tag-item {
+    display: flex;
+    border: 2px solid #fff;
+    width: 100%;
+}
+
+.tag-item__name {
+    font-size: 12px;
+    width: 100%;
+    min-height: 120px;
+    padding: 12px;
+    background-color: #212121;
+    color: #1E88E5;
+}
+
+.tag-item__description {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}

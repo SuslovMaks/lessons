@@ -1,0 +1,46 @@
+:root {
+    --default-font-size: 16px;
+}
+
+@media (min-width: 992px) {
+    .tag-item__name {
+        min-width: 640px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-tags h1 {
+        font-size: 36px;
+        padding: 24px 12px 36px;
+    }
+
+    .tag-item {
+        flex-direction: column;
+    }
+
+    .tag-item__name {
+        min-width: 640px;
+        width: 100%;
+        font-size: var(--default-font-size);
+    }
+
+    .tag-item__description {
+        font-size: var(--default-font-size);
+    }
+}
+
+@media (max-width: 767px) {
+    .main-tags h1 {
+        font-size: 28px;
+        padding: 24px 12px 36px;
+    }
+
+    .tag-item {
+        flex-direction: column;
+    }
+    
+    .tag-item__name {
+        min-width: calc(100%-24px);
+        font-size: 11px;
+    }
+}

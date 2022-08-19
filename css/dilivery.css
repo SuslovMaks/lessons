@@ -1,3 +1,6 @@
+:root {
+    --lime: #b9ff26a8;
+}
 .dilivery {
     max-width: 1402px;
     margin: 0 auto;
@@ -56,7 +59,7 @@ ul {
 }
 
 .dilivery ul{
-    background-color: #b9ff26a8;
+    background-color: var(--lime);
 }
 .green-list {
     overflow: hidden;
@@ -96,4 +99,91 @@ ul {
 .dilivery li {
     display: flex;
     align-items: center;
+}
+
+.font-test {
+    background-color: var(--lime);
+}
+
+.font-test-item {
+    padding: 36px 0 60px 72px;
+}
+
+.font-test-item__examples {
+    padding: 12px 0px 0px 6px;
+}
+
+.comfortaa-light {
+    font-family: "Comfortaa";
+    font-weight: 300;
+}
+
+.comfortaa-normal {
+    font-family: "Comfortaa";
+    font-weight: 400;
+}
+
+.comfortaa-medium {
+    font-family: "Comfortaa";
+    font-weight: 500;
+}
+
+.comfortaa-semibold {
+    font-family: "Comfortaa";
+    font-weight: 600;
+}
+
+.comfortaa-bold {
+    font-family: "Comfortaa";
+    font-weight: 700;
+}
+
+.lato-light {
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+.lato-normal {
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.lato-medium {
+    font-family: "Lato";
+    font-weight: 500;
+}
+
+.lato-semibold {
+    font-family: "Lato";
+    font-weight: 600;
+}
+
+.lato-bold {
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+.roboto-light {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.roboto-normal {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.roboto-medium {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.roboto-semibold {
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.roboto-bold {
+    font-family: "Roboto";
+    font-weight: 700;
 }

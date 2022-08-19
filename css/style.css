@@ -1,11 +1,23 @@
+:root{
+    --primary-color: #C83267;
+    --header-bg: #ffc107;
+}
+
+@import url('fonts.css');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Comfortaa';
+    font-weight: 400;
+}
+
 header {
-    background-color: #ffc107;
+    background-color: var(--header-bg);
     padding: 36px 0;
 }
 
@@ -45,7 +57,7 @@ nav a {
     font-weight: 700;
     font-size: 60px;
     line-height: 120%;
-    color: #C83267;
+    color: var(--primary-color);
     margin: 0 0 48px 0;
 }
 
@@ -59,8 +71,8 @@ nav a {
 }
 
 .banner-btn {
-    background-color: #C83267;
-    border: 1px solid #C83267;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
     color: #FFFFFF;
     font-weight: 400;
