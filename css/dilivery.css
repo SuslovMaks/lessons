@@ -53,13 +53,9 @@ img.left {
     color: #000000;
 }
 
- 
-ul {
-    padding: 36px 0 60px 72px;
-}
-
 .dilivery ul{
     background-color: var(--lime);
+    padding: 36px 0 60px 72px;
 }
 .green-list {
     overflow: hidden;

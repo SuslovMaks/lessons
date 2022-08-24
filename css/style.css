@@ -1,6 +1,5 @@
 :root{
     --primary-color: #C83267;
-    --header-bg: #ffc107;
 }
 
 @import url('fonts.css');
@@ -14,15 +13,6 @@
 body {
     font-family: 'Comfortaa';
     font-weight: 400;
-}
-
-header {
-    background-color: var(--header-bg);
-    padding: 36px 0;
-}
-
-nav a {
-    margin: 0 15px;
 }
 
 .container {

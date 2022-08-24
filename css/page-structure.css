@@ -1,0 +1,16 @@
+header {
+    padding-bottom: 60px;
+}
+
+.taxi {
+    padding-bottom: 100px;
+}
+
+.taxi .row {
+    flex-direction: row-reverse;
+}
+
+footer {
+    background-color: gray;
+    height: 200px;
+}

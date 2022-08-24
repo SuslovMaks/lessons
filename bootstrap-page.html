@@ -1,91 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstap</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap-page.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstap</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap-page.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html">index.html</a>
-                <a href="flexbox.html">flexbox.html</a>
-                <a href="table.html">table.html</a>
-                <a href="position.html">position.html</a>
-                <a href="main-tags.html">main-tags.html</a>
-                <a href="dilivery.html">dilivery.html</a>
-                <a href="bootstrap-page.html">bootstap-page.html</a>
-            </nav>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">index.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flexbox.html">flexbox.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">table.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="position.html">position.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="main-tags.html">main-tags.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dilivery.html">dilivery.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page-structure.html">page-structure.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nth-child.html">nth-child.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jquery-page.html">jquery-page.html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bootstrap-page.html">bootstap-page.html</a>
+            </li>
+          </ul>
         </div>
-    </header>
-    <main>
-        <h1 class="bs-title text-center">Bootstrap</h1>
-        <div class="container-fluid row bg-colors">
-            <h2 class="col-12 text-center">Background colors</h2>
-            <div class="container bg-primary col-3">Primary</div>
-            <div class="container bg-secondary col-3">Secondary</div>
-            <div class="container bg-success text-light col-3">Success</div>
-            <div class="container bg-danger text-light col-3">Danger</div>
-            <div class="container bg-warning col-3">Warning</div>
-            <div class="container bg-info col-3">Info</div>
-            <div class="container bg-light col-3">Light</div>
-            <div class="container bg-dark text-light col-3">Dark</div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <h1 class="bs-title text-center">Bootstrap</h1>
+      <div class="row bg-colors">
+        <h2 class="col-12 text-center">Background colors</h2>
+        <div class="container bg-primary col-3">Primary</div>
+        <div class="container bg-secondary col-3">Secondary</div>
+        <div class="container bg-success text-light col-3">Success</div>
+        <div class="container bg-danger text-light col-3">Danger</div>
+        <div class="container bg-warning col-3">Warning</div>
+        <div class="container bg-info col-3">Info</div>
+        <div class="container bg-light col-3">Light</div>
+        <div class="container bg-dark text-light col-3">Dark</div>
+      </div>
+      <div class="row bs-grid">
+        <h2 class="col-12 text-center">First grid</h2>
+        <div class="row">
+          <div class="col-3 bg-indigo">COL-3</div>
+          <div class="col-3 bg-indigo">COL-3</div>
+          <div class="col-3 bg-indigo">COL-3</div>
+          <div class="col-3 bg-indigo">COL-3</div>
         </div>
-        <div class="container-fluid row bs-grid">
-            <h2 class="col-12 text-center">First grid</h2>
-            <div class="row">
-                <div class="col-3 bg-indigo">COL-3</div>
-                <div class="col-3 bg-indigo">COL-3</div>
-                <div class="col-3 bg-indigo">COL-3</div>
-                <div class="col-3 bg-indigo">COL-3</div>
-            </div>
-            <div class="row">
-                <div class="col-4 bg-pink">COL-4</div>
-                <div class="col-4 bg-pink">COL-4</div>
-                <div class="col-4 bg-pink">COL-4</div>
-            </div>
-            <div class="row">
-                <div class="col-6 bg-warning">COL-6</div>
-                <div class="col-6 bg-warning">COL-6</div>
-            </div>
-            <div class="row">
-                <div class="col-2 bg-lime">COL-2</div>
-                <div class="col-2 bg-lime">COL-2</div>
-                <div class="col-2 bg-lime">COL-2</div>
-                <div class="col-2 bg-lime">COL-2</div>
-                <div class="col-2 bg-lime">COL-2</div>
-                <div class="col-2 bg-lime">COL-2</div>
-            </div>
-            <div class="row">
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-                <div class="col-1 bg-success">COL-1</div>
-            </div>
+        <div class="row">
+          <div class="col-4 bg-pink">COL-4</div>
+          <div class="col-4 bg-pink">COL-4</div>
+          <div class="col-4 bg-pink">COL-4</div>
         </div>
-        <div class="container-fluid row bs-grid">
-            <h2 class="col-12 text-center">Second grid</h2>
-            <div class="col-12 text-center text-light bg-dark">Header</div>
-            <div class="col-12 col-sm-3 text-center bg-danger">Left</div>
-            <div class="col-12 col-sm-6 text-center bg-warning">Middle</div>
-            <div class="col-12 col-sm-3 text-center bg-info">Right</div>
-            <div class="col-12 text-center bg-light">Footer</div>
+        <div class="row">
+          <div class="col-6 bg-warning">COL-6</div>
+          <div class="col-6 bg-warning">COL-6</div>
         </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="row">
+          <div class="col-2 bg-lime">COL-2</div>
+          <div class="col-2 bg-lime">COL-2</div>
+          <div class="col-2 bg-lime">COL-2</div>
+          <div class="col-2 bg-lime">COL-2</div>
+          <div class="col-2 bg-lime">COL-2</div>
+          <div class="col-2 bg-lime">COL-2</div>
+        </div>
+        <div class="row">
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+          <div class="col-1 bg-success">COL-1</div>
+        </div>
+      </div>
+      <div class="row bs-grid">
+        <h2 class="col-12 text-center">Second grid</h2>
+        <div class="col-12 text-center text-light bg-dark">Header</div>
+        <div class="col-12 col-sm-3 text-center bg-danger">Left</div>
+        <div class="col-12 col-sm-6 text-center bg-warning">Middle</div>
+        <div class="col-12 col-sm-3 text-center bg-info">Right</div>
+        <div class="col-12 text-center bg-light">Footer</div>
+      </div>
+      <div class="bs-range">
+        <h2 class="text-center">Полузнки</h2>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="classic-range-tab" data-bs-toggle="tab" data-bs-target="#classic-range"
+              type="button" role="tab" aria-controls="classic-range" aria-selected="true">Классический</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="disabled-range-tab" data-bs-toggle="tab" data-bs-target="#disabled-range"
+              type="button" role="tab" aria-controls="disabled-range" aria-selected="false">Отключённый</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="min-max-range-tab" data-bs-toggle="tab" data-bs-target="#min-max-range"
+              type="button" role="tab" aria-controls="min-max-range" aria-selected="false">Ползунок от 0 до 5</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="min-max-step-range-tab" data-bs-toggle="tab"
+              data-bs-target="#min-max-step-range" type="button" role="tab" aria-controls="min-max-step-range"
+              aria-selected="false">Ползунок от 0 до 5 с шагом 0.5</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="classic-range" role="tabpanel" aria-labelledby="classic-range-tab">
+            <h3 class="text-center">Классический</h3>
+            <label for="customRange1" class="form-label">Example range</label>
+            <input type="range" class="form-range" id="customRange1">
+          </div>
+          <div class="tab-pane fade" id="disabled-range" role="tabpanel" aria-labelledby="disabled-range-tab">
+            <h3 class="text-center">Отключённый ползунок</h3>
+            <label for="disabledRange" class="form-label">Disabled range</label>
+            <input type="range" class="form-range" id="disabledRange" disabled>
+          </div>
+          <div class="tab-pane fade" id="min-max-range" role="tabpanel" aria-labelledby="min-max-range-tab">
+            <h3 class="text-center">Ползунок от 0 до 5</h3>
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+          </div>
+          <div class="tab-pane fade" id="min-max-step-range" role="tabpanel" aria-labelledby="min-max-step-range-tab">
+            <h3 class="text-center">Ползунок от 0 до 5 с шагом 0.5</h3>
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+          </div>
+        </div>
+      </div>
+      <div class="bs-spinner">
+        <h2 class="text-center">Спинер</h2>
+        <div class="spinner-border border-0 spinner-example" role="status">
+          <img src="./img/gear.png" alt="gear">
+        </div>
+      </div>
+      <div class="bs-accordion">
+        <h2 class="text-center">Аккордеоны</h2>
+        <h3 class="text-center">Классический аккордеон</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-center">Аккордеон без бордера</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                happening here in terms of content, but just filling up the space to make it look, at least at first
+                glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-center">Аккордеон, где елементы могут быть открыты вместе</h3>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bs-alerts">
+        <h2 class="text-center">Алерты</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </symbol>
+          <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </symbol>
+          <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+          </symbol>
+        </svg>
+
+        <div class="alert alert-primary d-flex align-items-center alert-dismissible" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
+            <use xlink:href="#info-fill" /></svg>
+          <div>
+            An example alert with an icon
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-success d-flex align-items-center alert-dismissible" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+            <use xlink:href="#check-circle-fill" /></svg>
+          <div>
+            An example success alert with an icon
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-warning d-flex align-items-center alert-dismissible" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:">
+            <use xlink:href="#exclamation-triangle-fill" /></svg>
+          <div>
+            An example warning alert with an icon
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-danger d-flex align-items-center" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+            <use xlink:href="#exclamation-triangle-fill" /></svg>
+          <div>
+            An example danger alert with an icon
+          </div>
+        </div>
+      </div>
+      <div class="bs-buttons">
+        <h3 class="text-center">Кнопки</h3>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+      </div>
+      <div class="bs-dropdowns">
+        <h2 class="text-center">Выпадашки</h2>
+        <div class="dropdown">
+          <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Выпадашка
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-modal">
+        <h2 class="text-center">Модальные окна</h2>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Первое модальное окно
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Первое модальное окно
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          Второе модальное окно
+        </button>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Второе модальное окно
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+          Третье модальное окно
+        </button>
+
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Третье модальное окно
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
